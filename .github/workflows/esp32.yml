@@ -35,6 +35,7 @@ jobs:
 
         arduino-cli lib install "RTClib"
         arduino-cli lib install "ESP Async WebServer"
+        arduino-cli lib install "Async TCP"
         
         # Compile firmware
         mv *.ino esp32-alarm-clock.ino
